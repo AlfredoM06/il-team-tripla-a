@@ -12,6 +12,6 @@ public class TestController {
     @GetMapping
     public String index (Model model) {
         model.addAttribute("ciao", "ciao");
-        return "home";
+        return "homeee";
     }
 }
